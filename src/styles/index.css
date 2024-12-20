@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gray-50: 248 249 250;
+    --gray-100: 241 243 245;
+    --gray-200: 233 236 239;
+    --gray-300: 222 226 230;
+    --gray-400: 206 212 218;
+    --gray-500: 173 181 189;
+    --gray-600: 134 142 150;
+    --gray-700: 73 80 87;
+    --gray-800: 52 58 64;
+    --gray-900: 33 37 41;
+    --gray-950: 26 30 34;
+  }
+
+  .dark:root {
+    --gray-50: 201 201 201;
+    --gray-100: 184 184 184;
+    --gray-200: 130 130 130;
+    --gray-300: 105 105 105;
+    --gray-400: 66 66 66;
+    --gray-500: 59 59 59;
+    --gray-600: 46 46 46;
+    --gray-700: 36 36 36;
+    --gray-800: 31 31 31;
+    --gray-900: 20 20 20;
+    --gray-950: 15 15 15;
+  }
+}
