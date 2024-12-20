@@ -65,6 +65,16 @@ export default {
           950: 'rgb(var(--gray-950))',
         },
       },
+      keyframes: {
+        float: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-16px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        float: 'float 3s cubic-bezier(0.4, 0, 0.2, 1) infinite',
+      },
     },
   },
   plugins: [],

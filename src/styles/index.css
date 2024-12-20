@@ -19,7 +19,7 @@
     --gray-950: 26 30 34;
   }
 
-  .dark:root {
+  [data-mantine-color-scheme='dark']:root {
     --gray-50: 201 201 201;
     --gray-100: 184 184 184;
     --gray-200: 130 130 130;
