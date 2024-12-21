@@ -1,4 +1,4 @@
-import { createTheme } from '@mantine/core'
+import { createTheme, PasswordInput, TextInput } from '@mantine/core'
 
 const theme = createTheme({
   fontFamily: 'Inter, sans-serif',
@@ -17,6 +17,21 @@ const theme = createTheme({
     ],
   },
   primaryColor: 'brand',
+  defaultRadius: '6px',
+  components: {
+    TextInput: TextInput.extend({
+      classNames: {
+        label: 'mb-2',
+        input: 'bg-transparent',
+      },
+    }),
+    PasswordInput: PasswordInput.extend({
+      classNames: {
+        label: 'mb-2',
+        input: 'bg-transparent',
+      },
+    }),
+  },
 })
 
 export default theme

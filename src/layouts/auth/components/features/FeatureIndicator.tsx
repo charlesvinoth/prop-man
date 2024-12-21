@@ -22,7 +22,7 @@ const FeatureIndicator: React.FC<FeatureIndicatorProps> = ({
           radius='xl'
           size='lg'
           variant='subtle'
-          color={index === activeIndex ? 'brand' : 'gray'}
+          color={index === activeIndex ? '#f9a748' : 'gray'}
           onClick={() => setActiveIndex(index)}
         >
           <Icon

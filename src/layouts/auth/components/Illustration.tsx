@@ -113,7 +113,7 @@ const Illustration = () => {
               r='257.5'
               transform='translate(890 1458)'
               opacity='.13'
-              className='fill-primary-600'
+              className='fill-primary-600 dark:fill-primary-800'
             />
             <g
               data-name='Ellipse 209'
@@ -141,7 +141,7 @@ const Illustration = () => {
           <g
             data-name='Group 840'
             transform='translate(7601 -5716)'
-            className='fill-primary-600'
+            className='fill-primary-600 dark:fill-primary-800'
           >
             <rect
               data-name='Rectangle 523'
@@ -197,17 +197,17 @@ const Illustration = () => {
                 cy='44.5'
                 r='44.5'
                 transform='translate(0 .116)'
-                className='fill-secondary-300'
+                className='fill-secondary-300 dark:fill-secondary-400'
               />
               <path
                 data-name='Intersection 2'
                 d='m19.776 80.779 52.657-70.114a44.165 44.165 0 0 1 6.578 6.712 5316.08 5316.08 0 0 1 5.265 8.488 43.893 43.893 0 0 1-64.5 54.914Z'
-                className='fill-secondary-300 stroke-secondary-300'
+                className='fill-secondary-300 stroke-secondary-300 dark:fill-secondary-400 dark:stroke-secondary-400'
               />
               <path
                 data-name='Intersection 1'
                 d='M45.908 45.908V.02a44.559 44.559 0 0 1 43.207 44.538c0 .452-.007.9-.02 1.35Z'
-                className='fill-primary-600'
+                className='fill-primary-600 dark:fill-primary-800'
               />
             </g>
             <ellipse
@@ -226,7 +226,7 @@ const Illustration = () => {
             cy='87'
             r='87'
             transform='translate(1001 1746)'
-            className='fill-primary-600'
+            className='fill-primary-600 dark:fill-primary-800'
             opacity='.5'
           />
           <g data-name='Group 845'>
@@ -278,7 +278,7 @@ const Illustration = () => {
                 data-name='Path 3494'
                 d='M398.5 499.895a20.682 20.682 0 0 0 16.149 2.219c9-2.594 13.332-15.583 21.479-16.851s16.932 12.467 25.465 9.691 18.465-24.161 28.886-27.365 19.146 16.676 34.776 7.791 26.071-42.879 26.071-42.879'
                 fill='none'
-                className='stroke-secondary-300'
+                className='stroke-secondary-300 dark:stroke-secondary-400'
                 strokeLinecap='round'
                 strokeWidth='3'
               />
@@ -318,7 +318,7 @@ const Illustration = () => {
             height='6'
             rx='3'
             transform='translate(848 1531)'
-            className='fill-secondary-300'
+            className='fill-secondary-300 dark:fill-secondary-400'
           />
           <rect
             data-name='Rectangle 533'
@@ -326,7 +326,7 @@ const Illustration = () => {
             height='6'
             rx='3'
             transform='translate(848 1573)'
-            className='fill-secondary-300'
+            className='fill-secondary-300 dark:fill-secondary-400'
           />
           <circle
             data-name='Ellipse 215'
@@ -334,7 +334,7 @@ const Illustration = () => {
             cy='10'
             r='10'
             transform='translate(882 1523)'
-            className='fill-secondary-300'
+            className='fill-secondary-300 dark:fill-secondary-400'
           />
           <circle
             data-name='Ellipse 216'
@@ -342,7 +342,7 @@ const Illustration = () => {
             cy='10'
             r='10'
             transform='translate(933 1566)'
-            className='fill-secondary-300'
+            className='fill-secondary-300 dark:fill-secondary-400'
           />
         </g>
       </svg>
