@@ -3,6 +3,7 @@ import { motion } from 'motion/react'
 const Illustration = () => {
   return (
     <motion.div
+      aria-label='Illustration'
       animate={{
         y: [0, -16, 0],
       }}
